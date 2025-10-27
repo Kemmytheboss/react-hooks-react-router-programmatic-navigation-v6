@@ -1,6 +1,7 @@
 import { NavLink} from "react-router-dom";
 import "./NavBar.css";
 
+
 function NavBar() {
 
   return (
@@ -17,6 +18,7 @@ function NavBar() {
       >
         About
       </NavLink>
+      <button onclick={logout} > logout </button>
     </nav>
   );
 }
